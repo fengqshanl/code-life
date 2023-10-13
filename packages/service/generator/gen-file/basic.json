@@ -1,0 +1,15 @@
+{
+  "public": {},
+  "src": {
+    "assets": {},
+    "components": {},
+    "App.vue": "",
+    "main.js": "",
+    "style.css": ""
+  },
+  ".gitignore": "",
+  "index.html": "",
+  "package.json": "",
+  "README.md": "",
+  "vite.config.js": ""
+}

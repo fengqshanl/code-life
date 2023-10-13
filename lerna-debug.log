@@ -1,0 +1,10 @@
+0 silly argv { _: [ 'run' ], lernaVersion: '7.3.0', '$0': 'lerna', script: 'dev' }
+1 notice cli v7.3.0
+2 verbose packageConfigs Explicit "packages" configuration found in lerna.json. Resolving packages using the configured glob(s): ["packages/*"]
+3 verbose rootPath /Users/z/dh/log-code-platform
+4 error Error: GenericFailure
+4 error     at retrieveWorkspaceFiles (/Users/z/dh/log-code-platform/node_modules/nx/src/project-graph/utils/retrieve-workspace-files.js:26:83)
+4 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+4 error     at async buildProjectGraphWithoutDaemon (/Users/z/dh/log-code-platform/node_modules/nx/src/project-graph/project-graph.js:64:90)
+4 error     at async createProjectGraphAsync (/Users/z/dh/log-code-platform/node_modules/nx/src/project-graph/project-graph.js:113:25)
+4 error     at async detectProjects (/Users/z/dh/log-code-platform/node_modules/lerna/dist/index.js:1449:25)
